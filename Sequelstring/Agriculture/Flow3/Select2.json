@@ -1,0 +1,51 @@
+{"context": {
+      "domain": "ONDC:AGR10",
+      "core_version": "1.2.0",
+      "transaction_id": "9ea3ff23-0af4-408e-9c7d-8db98645c551",
+      "country": "IND",
+      "city": "std:011",
+      "action": "select",
+      "timestamp": "2025-01-03T05:21:17.276Z",
+      "message_id": "f3051aab-418c-45fc-8dda-049a09c50a01",
+      "ttl": "PT30S",
+      "bap_uri": "http://127.0.0.1:8000/buyer/",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+    },
+    "message": {
+      "order": {
+        "items": [
+          {
+            "id": "14910",
+            "location_id": "5009-L1",
+            "quantity": {
+              "count": 2
+            }
+          }
+        ],
+        "payment": {
+          "type": "ON-FULFILLMENT"
+        },
+        "provider": {
+          "id": "5009",
+          "locations": [
+            {
+              "id": "5009-L1"
+            }
+          ]
+        },
+        "fulfillments": [
+          {
+            "end": {
+              "location": {
+                "gps": "12.974002,77.613458",
+                "address": {
+                  "area_code": "560001"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }}

@@ -1,0 +1,18 @@
+{"context": {
+      "domain": "ONDC:AGR10",
+      "core_version": "1.2.0",
+      "transaction_id": "8c5df6df-24f4-451d-b69b-8ed8cc26f9c1",
+      "country": "IND",
+      "city": "std:011",
+      "action": "status",
+      "timestamp": "2025-01-02T10:18:09.383Z",
+      "message_id": "f0013be1-bb5f-4afd-9803-3fc86de6de0b",
+      "ttl": "PT30S",
+      "bap_uri": "http://127.0.0.1:8000/buyer/",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+    },
+    "message": {
+      "order_id": "SS1735813086043"
+    }}

@@ -1,0 +1,26 @@
+{
+    "context": {
+        "domain": "ONDC:AGR10",
+        "core_version": "1.2.0",
+        "transaction_id": "3f4a947a-fdac-4f15-aa00-87c7fadea733",
+        "country": "IND",
+        "city": "std:011",
+        "action": "search",
+        "timestamp": "2025-01-02T10:17:10.558Z",
+        "message_id": "effe39f0-2920-47e4-93a9-e2c9155d587e",
+        "ttl": "PT30S",
+        "bap_uri": "http://127.0.0.1:8000/buyer/",
+        "bap_id": "ondc.sequelstring.com/buyer/protocol"
+    },
+    "message": {
+        "intent": {
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3"
+            },
+            "fulfillment": {
+                "type": "Delivery"
+            }
+        }
+    }
+}

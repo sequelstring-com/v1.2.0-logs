@@ -1,0 +1,84 @@
+{"context": {
+    "domain": "ONDC:AGR10",
+    "core_version": "1.2.0",
+    "transaction_id": "e44d004e-9dac-42ce-836e-4cbf4531fbe5",
+    "country": "IND",
+    "city": "std:011",
+    "action": "init",
+    "timestamp": "2025-01-02T10:18:03.638Z",
+    "message_id": "c9e172b4-942c-45d0-acf3-81da5e181cfd",
+    "ttl": "PT30S",
+    "bap_uri": "http://127.0.0.1:8000/buyer/",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+  },
+  "message": {
+    "order": {
+      "items": [
+        {
+          "id": "14910",
+          "quantity": {
+            "count": 2
+          },
+          "fulfillment_id": "5009-Delivery"
+        },
+        {
+          "id": "15720",
+          "quantity": {
+            "count": 2
+          },
+          "fulfillment_id": "5009-Delivery"
+        }
+      ],
+      "billing": {
+        "name": "Ramu",
+        "phone": "9900000000",
+        "address": {
+          "city": "Bengaluru",
+          "name": "SCO1, Avenue road",
+          "state": "Karnataka",
+          "country": "IND",
+          "building": "Wework",
+          "locality": "Shiv dham",
+          "area_code": "800007"
+        },
+        "created_at": "2025-01-02T10:18:03.638Z",
+        "updated_at": "2025-01-02T10:18:03.638Z"
+      },
+      "provider": {
+        "id": "5009",
+        "locations": [
+          {
+            "id": "5009-L1"
+          }
+        ]
+      },
+      "fulfillments": [
+        {
+          "id": "5009-Delivery",
+          "type": "Delivery",
+          "end": {
+            "person": {
+              "name": "Ramu"
+            },
+            "contact": {
+              "phone": "9900000000"
+            },
+            "location": {
+              "gps": "12.974002,77.613458",
+              "address": {
+                "city": "Bengaluru",
+                "name": "SCO1, Avenue road",
+                "state": "Karnataka",
+                "country": "IND",
+                "building": "Wework",
+                "locality": "Shiv dham",
+                "area_code": "560001"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }}

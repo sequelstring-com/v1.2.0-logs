@@ -1,0 +1,177 @@
+{
+    "context": {
+        "domain": "ONDC:AGR10",
+        "core_version": "1.2.0",
+        "transaction_id": "f903ae8e-125e-40de-9f17-2f9c783c388d",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_select",
+        "timestamp": "2025-01-02T10:18:01.336Z",
+        "message_id": "5d1470a4-471d-4847-8306-5effc80d21c9",
+        "ttl": "PT30S",
+        "bap_uri": "http://127.0.0.1:8000/buyer/",
+        "bap_id": "ondc.sequelstring.com/buyer/protocol",
+        "bpp_id": "ondc.sequelstring.com/seller/protocol",
+        "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "id": "14910",
+                    "fulfillment_id": "5009-Delivery"
+                },
+                {
+                    "id": "15720",
+                    "fulfillment_id": "5009-Delivery"
+                }
+            ],
+            "provider": {
+                "id": "5009",
+                "locations": [
+                    {
+                        "id": "5009-L1"
+                    }
+                ]
+            },
+            "fulfillments": [
+                {
+                    "id": "5009-Delivery",
+                    "type": "Delivery",
+                    "state": {
+                        "descriptor": {
+                            "code": "Serviceable"
+                        }
+                    },
+                    "@ondc/org/TAT": "P2D",
+                    "@ondc/org/category": "Standard Delivery",
+                    "@ondc/org/provider_name": "Agro Fertilizer Store"
+                }
+            ],
+            "quote": {
+                "ttl": "P1D",
+                "price": {
+                    "value": "2250",
+                    "currency": "INR"
+                },
+                "breakup": [
+                    {
+                        "price": {
+                            "value": "10",
+                            "currency": "INR"
+                        },
+                        "title": "Delivery charges",
+                        "@ondc/org/item_id": "5009-Delivery",
+                        "@ondc/org/title_type": "delivery"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Packing charges",
+                        "@ondc/org/item_id": "5009-Delivery",
+                        "@ondc/org/title_type": "packing"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Convenience Fee",
+                        "@ondc/org/item_id": "5009-Delivery",
+                        "@ondc/org/title_type": "misc"
+                    },
+                    {
+                        "item": {
+                            "price": {
+                                "value": "820.00",
+                                "currency": "INR"
+                            },
+                            "quantity": {
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "available": {
+                                    "count": "99"
+                                }
+                            }
+                        },
+                        "price": {
+                            "value": "1640",
+                            "currency": "INR"
+                        },
+                        "title": "OKRA NUZIVEEDU NOKH 1001",
+                        "@ondc/org/item_id": "14910",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 2
+                        }
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Tax",
+                        "@ondc/org/item_id": "14910",
+                        "@ondc/org/title_type": "tax"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Discount",
+                        "@ondc/org/item_id": "14910",
+                        "@ondc/org/title_type": "discount"
+                    },
+                    {
+                        "item": {
+                            "price": {
+                                "value": "300.00",
+                                "currency": "INR"
+                            },
+                            "quantity": {
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "available": {
+                                    "count": "99"
+                                }
+                            }
+                        },
+                        "price": {
+                            "value": "600",
+                            "currency": "INR"
+                        },
+                        "title": "COTTON US AGRISEEDS US 7067",
+                        "@ondc/org/item_id": "15720",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 2
+                        }
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Tax",
+                        "@ondc/org/item_id": "15720",
+                        "@ondc/org/title_type": "tax"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Discount",
+                        "@ondc/org/item_id": "15720",
+                        "@ondc/org/title_type": "discount"
+                    }
+                ]
+            }
+        }
+    }
+}
