@@ -1,12 +1,13 @@
-{"context": {
+{
+  "context": {
     "domain": "ONDC:AGR10",
     "core_version": "1.2.0",
-    "transaction_id": "e44d004e-9dac-42ce-836e-4cbf4531fbe5",
+    "transaction_id": "a72d6b8b-add6-43fd-ac04-58e2d916a125",
     "country": "IND",
-    "city": "std:011",
+    "city": "*",
     "action": "on_search",
-    "timestamp": "2025-01-02T10:17:11.979Z",
-    "message_id": "effe39f0-2920-47e4-93a9-e2c9155d587e",
+    "timestamp": "2025-01-09T07:26:31.621Z",
+    "message_id": "88defd28-6893-4efc-8234-a580894b0005",
     "ttl": "PT30S",
     "bap_uri": "http://127.0.0.1:8000/buyer/",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
@@ -193,9 +194,7 @@
               },
               "descriptor": {
                 "name": "OKRA NUZIVEEDU NOKH 1001",
-                "images": [
-                  "https://test.s3.amazonaws.com/Product_default.png"
-                ],
+                "images": ["https://test.s3.amazonaws.com/Product_default.png"],
                 "symbol": "https://test.s3.amazonaws.com/Product_default.png",
                 "long_desc": "OKRA NUZIVEEDU NOKH 1001",
                 "short_desc": "OKRA NUZIVEEDU NOKH 1001"
@@ -250,9 +249,7 @@
               },
               "descriptor": {
                 "name": "COTTON US AGRISEEDS US 7067",
-                "images": [
-                  "https://test.s3.amazonaws.com/Product_default.png"
-                ],
+                "images": ["https://test.s3.amazonaws.com/Product_default.png"],
                 "symbol": "https://test.s3.amazonaws.com/Product_default.png",
                 "long_desc": "• कंपनी--एग्रो बीज\n• फसल--गेहूं\n• उत्पाद श्रेणी--बीज\n• परिपक्वता (DAT)--140-157 दिन\n• पौधे की ऊँचाई--90-101 सेमी\n• पैकेजिंग--40 किग्रा\n• उत्पादन--20-24 क्विंटल/एकड़\n• टिप्पणियां --अच्छा उत्पादन और रस्ट से प्रतिरोधित\n\n\n",
                 "short_desc": "COTTON US AGRISEEDS US 7067"
@@ -398,9 +395,7 @@
           ],
           "descriptor": {
             "name": "Agro Fertilizer Store",
-            "images": [
-              "https://cdn.test.com/festive_greeting/store.png"
-            ],
+            "images": ["https://cdn.test.com/festive_greeting/store.png"],
             "symbol": "https://cdn.test.com/festive_greeting/store.png",
             "long_desc": "Agro Fertilizer Store",
             "short_desc": "Agro Fertilizer Store"
@@ -448,4 +443,5 @@
         }
       ]
     }
-  }}
+  }
+}

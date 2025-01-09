@@ -1,12 +1,13 @@
-{"context": {
+{
+  "context": {
     "domain": "ONDC:AGR10",
     "core_version": "1.2.0",
-    "transaction_id": "95eab342-f9b2-4237-9579-1cafc27c2ad2",
+    "transaction_id": "8b0a43f3-a778-4a86-b819-6ccb88f33d14",
     "country": "IND",
-    "city": "std:011",
+    "city": "*",
     "action": "on_status",
-    "timestamp": "2025-01-02T10:18:09.539Z",
-    "message_id": "f0013be1-bb5f-4afd-9803-3fc86de6de0b",
+    "timestamp": "2025-01-09T05:22:35.922Z",
+    "message_id": "f15475a6-0b67-4886-9523-8b3e7d3d0eec",
     "ttl": "PT30S",
     "bap_uri": "http://127.0.0.1:8000/buyer/",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
@@ -15,7 +16,7 @@
   },
   "message": {
     "order": {
-      "id": "SS1735813086043",
+      "id": "SS1736400149902",
       "items": [
         {
           "id": "14910",
@@ -153,8 +154,8 @@
           "locality": "Shiv dham",
           "area_code": "800007"
         },
-        "created_at": "2025-01-02T10:18:03.638Z",
-        "updated_at": "2025-01-02T10:18:03.638Z"
+        "created_at": "2025-01-09T05:22:25.685Z",
+        "updated_at": "2025-01-09T05:22:25.685Z"
       },
       "payment": {
         "type": "ON-FULFILLMENT",
@@ -190,8 +191,8 @@
           }
         ]
       },
-      "created_at": "2025-01-02T10:18:06.042Z",
-      "updated_at": "2025-01-02T10:18:06.470Z",
+      "created_at": "2025-01-09T05:22:29.902Z",
+      "updated_at": "2025-01-09T05:22:30.134Z",
       "fulfillments": [
         {
           "id": "5009-Delivery",
@@ -226,8 +227,8 @@
             },
             "time": {
               "range": {
-                "start": "2025-01-02T10:18:09.539Z",
-                "end": "2025-01-02T23:00:00.000Z"
+                "start": "2025-01-09T05:22:35.922Z",
+                "end": "2025-01-09T23:00:00.000Z"
               }
             }
           },
@@ -252,8 +253,8 @@
             },
             "time": {
               "range": {
-                "start": "2025-01-02T10:18:09.539Z",
-                "end": "2025-01-02T23:00:00.000Z"
+                "start": "2025-01-09T05:22:35.922Z",
+                "end": "2025-01-09T23:00:00.000Z"
               }
             }
           },
@@ -261,4 +262,5 @@
         }
       ]
     }
-  }}
+  }
+}

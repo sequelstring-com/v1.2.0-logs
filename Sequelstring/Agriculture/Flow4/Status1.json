@@ -1,18 +1,20 @@
-{"context": {
-      "domain": "ONDC:AGR10",
-      "core_version": "1.2.0",
-      "transaction_id": "95eab342-f9b2-4237-9579-1cafc27c2ad2",
-      "country": "IND",
-      "city": "std:011",
-      "action": "status",
-      "timestamp": "2025-01-02T10:18:09.383Z",
-      "message_id": "f0013be1-bb5f-4afd-9803-3fc86de6de0b",
-      "ttl": "PT30S",
-      "bap_uri": "http://127.0.0.1:8000/buyer/",
-      "bap_id": "ondc.sequelstring.com/buyer/protocol",
-      "bpp_id": "ondc.sequelstring.com/seller/protocol",
-      "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
-    },
-    "message": {
-      "order_id": "SS1735813086043"
-    }}
+{
+  "context": {
+    "domain": "ONDC:AGR10",
+    "core_version": "1.2.0",
+    "transaction_id": "8b0a43f3-a778-4a86-b819-6ccb88f33d14",
+    "country": "IND",
+    "city": "*",
+    "action": "status",
+    "timestamp": "2025-01-09T05:22:35.779Z",
+    "message_id": "f15475a6-0b67-4886-9523-8b3e7d3d0eec",
+    "ttl": "PT30S",
+    "bap_uri": "http://127.0.0.1:8000/buyer/",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+  },
+  "message": {
+    "order_id": "SS1736400149902"
+  }
+}

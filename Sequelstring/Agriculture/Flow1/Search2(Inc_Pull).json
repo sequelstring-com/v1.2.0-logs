@@ -1,38 +1,38 @@
 {
-    "context": {
-        "domain": "ONDC:AGR10",
-        "core_version": "1.2.0",
-        "transaction_id": "720e4905-07b6-41e6-91bf-3caa4bf843db",
-        "country": "IND",
-        "city": "std:011",
-        "action": "search",
-        "timestamp": "2025-01-02T10:19:20.270Z",
-        "message_id": "f0ba4fa8-cc38-4780-b49f-ac2f0a5c2ee9",
-        "ttl": "PT30S",
-        "bap_uri": "http://127.0.0.1:8000/buyer/",
-        "bap_id": "ondc.sequelstring.com/buyer/protocol"
-    },
-    "message": {
-        "intent": {
-            "payment": {
-                "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/buyer_app_finder_fee_amount": "3"
+  "context": {
+    "domain": "ONDC:AGR10",
+    "core_version": "1.2.0",
+    "transaction_id": "5856f006-355c-4560-8d2b-bba380479abc",
+    "country": "IND",
+    "city": "*",
+    "action": "search",
+    "timestamp": "2025-01-09T05:15:12.812Z",
+    "message_id": "69573348-cd9c-4a70-a526-48bf6f8e69e4",
+    "ttl": "PT30S",
+    "bap_uri": "http://127.0.0.1:8000/buyer/",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol"
+  },
+  "message": {
+    "intent": {
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      },
+      "tags": [
+        {
+          "code": "catalog_inc",
+          "list": [
+            {
+              "code": "start_time",
+              "value": "2024-03-15T08:38:36.933Z"
             },
-            "tags": [
-                {
-                    "code": "catalog_inc",
-                    "list": [
-                        {
-                            "code": "start_time",
-                            "value": "2024-03-15T08:38:36.933Z"
-                        },
-                        {
-                            "code": "end_time",
-                            "value": "2024-03-15T08:46:31.068Z"
-                        }
-                    ]
-                }
-            ]
+            {
+              "code": "end_time",
+              "value": "2024-03-15T08:46:31.068Z"
+            }
+          ]
         }
+      ]
     }
+  }
 }

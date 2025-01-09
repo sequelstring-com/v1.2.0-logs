@@ -1,127 +1,129 @@
-{"context": {
-      "domain": "ONDC:AGR10",
-      "core_version": "1.2.0",
-      "transaction_id": "9ea3ff23-0af4-408e-9c7d-8db98645c551",
-      "country": "IND",
-      "city": "std:011",
-      "action": "on_select",
-      "timestamp": "2025-01-03T05:21:17.577Z",
-      "message_id": "f3051aab-418c-45fc-8dda-049a09c50a01",
-      "ttl": "PT30S",
-      "bap_uri": "http://127.0.0.1:8000/buyer/",
-      "bap_id": "ondc.sequelstring.com/buyer/protocol",
-      "bpp_id": "ondc.sequelstring.com/seller/protocol",
-      "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
-    },
-    "message": {
-      "order": {
-        "items": [
-          {
-            "id": "14910",
-            "fulfillment_id": "5009-Delivery"
-          }
-        ],
-        "provider": {
-          "id": "5009",
-          "locations": [
-            {
-              "id": "5009-L1"
-            }
-          ]
-        },
-        "fulfillments": [
-          {
-            "id": "5009-Delivery",
-            "type": "Delivery",
-            "state": {
-              "descriptor": {
-                "code": "Serviceable"
-              }
-            },
-            "@ondc/org/TAT": "P2D",
-            "@ondc/org/category": "Standard Delivery",
-            "@ondc/org/provider_name": "Agro Fertilizer Store"
-          }
-        ],
-        "quote": {
-          "ttl": "P1D",
-          "price": {
-            "value": "1650",
-            "currency": "INR"
-          },
-          "breakup": [
-            {
-              "price": {
-                "value": "10",
-                "currency": "INR"
-              },
-              "title": "Delivery charges",
-              "@ondc/org/item_id": "5009-Delivery",
-              "@ondc/org/title_type": "delivery"
-            },
-            {
-              "price": {
-                "value": "0",
-                "currency": "INR"
-              },
-              "title": "Packing charges",
-              "@ondc/org/item_id": "5009-Delivery",
-              "@ondc/org/title_type": "packing"
-            },
-            {
-              "price": {
-                "value": "0",
-                "currency": "INR"
-              },
-              "title": "Convenience Fee",
-              "@ondc/org/item_id": "5009-Delivery",
-              "@ondc/org/title_type": "misc"
-            },
-            {
-              "item": {
-                "price": {
-                  "value": "820.00",
-                  "currency": "INR"
-                },
-                "quantity": {
-                  "maximum": {
-                    "count": "99"
-                  },
-                  "available": {
-                    "count": "99"
-                  }
-                }
-              },
-              "price": {
-                "value": "1640",
-                "currency": "INR"
-              },
-              "title": "OKRA NUZIVEEDU NOKH 1001",
-              "@ondc/org/item_id": "14910",
-              "@ondc/org/title_type": "item",
-              "@ondc/org/item_quantity": {
-                "count": 2
-              }
-            },
-            {
-              "price": {
-                "value": "0",
-                "currency": "INR"
-              },
-              "title": "Tax",
-              "@ondc/org/item_id": "14910",
-              "@ondc/org/title_type": "tax"
-            },
-            {
-              "price": {
-                "value": "0",
-                "currency": "INR"
-              },
-              "title": "Discount",
-              "@ondc/org/item_id": "14910",
-              "@ondc/org/title_type": "discount"
-            }
-          ]
+{
+  "context": {
+    "domain": "ONDC:AGR10",
+    "core_version": "1.2.0",
+    "transaction_id": "ef5a33f6-078d-4a88-a325-518b51741cd1",
+    "country": "IND",
+    "city": "*",
+    "action": "on_select",
+    "timestamp": "2025-01-09T05:19:04.498Z",
+    "message_id": "11d7a5aa-7769-458c-831a-d475b4d5c263",
+    "ttl": "PT30S",
+    "bap_uri": "http://127.0.0.1:8000/buyer/",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+  },
+  "message": {
+    "order": {
+      "items": [
+        {
+          "id": "14910",
+          "fulfillment_id": "5009-Delivery"
         }
+      ],
+      "provider": {
+        "id": "5009",
+        "locations": [
+          {
+            "id": "5009-L1"
+          }
+        ]
+      },
+      "fulfillments": [
+        {
+          "id": "5009-Delivery",
+          "type": "Delivery",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          },
+          "@ondc/org/TAT": "P2D",
+          "@ondc/org/category": "Standard Delivery",
+          "@ondc/org/provider_name": "Agro Fertilizer Store"
+        }
+      ],
+      "quote": {
+        "ttl": "P1D",
+        "price": {
+          "value": "1650",
+          "currency": "INR"
+        },
+        "breakup": [
+          {
+            "price": {
+              "value": "10",
+              "currency": "INR"
+            },
+            "title": "Delivery charges",
+            "@ondc/org/item_id": "5009-Delivery",
+            "@ondc/org/title_type": "delivery"
+          },
+          {
+            "price": {
+              "value": "0",
+              "currency": "INR"
+            },
+            "title": "Packing charges",
+            "@ondc/org/item_id": "5009-Delivery",
+            "@ondc/org/title_type": "packing"
+          },
+          {
+            "price": {
+              "value": "0",
+              "currency": "INR"
+            },
+            "title": "Convenience Fee",
+            "@ondc/org/item_id": "5009-Delivery",
+            "@ondc/org/title_type": "misc"
+          },
+          {
+            "item": {
+              "price": {
+                "value": "820.00",
+                "currency": "INR"
+              },
+              "quantity": {
+                "maximum": {
+                  "count": "99"
+                },
+                "available": {
+                  "count": "99"
+                }
+              }
+            },
+            "price": {
+              "value": "1640",
+              "currency": "INR"
+            },
+            "title": "OKRA NUZIVEEDU NOKH 1001",
+            "@ondc/org/item_id": "14910",
+            "@ondc/org/title_type": "item",
+            "@ondc/org/item_quantity": {
+              "count": 2
+            }
+          },
+          {
+            "price": {
+              "value": "0",
+              "currency": "INR"
+            },
+            "title": "Tax",
+            "@ondc/org/item_id": "14910",
+            "@ondc/org/title_type": "tax"
+          },
+          {
+            "price": {
+              "value": "0",
+              "currency": "INR"
+            },
+            "title": "Discount",
+            "@ondc/org/item_id": "14910",
+            "@ondc/org/title_type": "discount"
+          }
+        ]
       }
-    }}
+    }
+  }
+}

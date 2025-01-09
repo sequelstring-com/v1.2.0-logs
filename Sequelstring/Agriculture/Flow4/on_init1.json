@@ -1,12 +1,13 @@
-{"context": {
+{
+  "context": {
     "domain": "ONDC:AGR10",
     "core_version": "1.2.0",
-    "transaction_id": "95eab342-f9b2-4237-9579-1cafc27c2ad2",
+    "transaction_id": "8b0a43f3-a778-4a86-b819-6ccb88f33d14",
     "country": "IND",
-    "city": "std:011",
+    "city": "*",
     "action": "on_init",
-    "timestamp": "2025-01-02T10:18:03.944Z",
-    "message_id": "c9e172b4-942c-45d0-acf3-81da5e181cfd",
+    "timestamp": "2025-01-09T05:22:25.919Z",
+    "message_id": "2d4703d6-df52-4908-b515-6241f9b6ea54",
     "ttl": "PT30S",
     "bap_uri": "http://127.0.0.1:8000/buyer/",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
@@ -221,8 +222,9 @@
           "locality": "Shiv dham",
           "area_code": "800007"
         },
-        "created_at": "2025-01-02T10:18:03.638Z",
-        "updated_at": "2025-01-02T10:18:03.638Z"
+        "created_at": "2025-01-09T05:22:25.685Z",
+        "updated_at": "2025-01-09T05:22:25.685Z"
       }
     }
-  }}
+  }
+}

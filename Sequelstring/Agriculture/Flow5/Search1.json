@@ -1,12 +1,13 @@
-{"context": {
+{
+  "context": {
     "domain": "ONDC:AGR10",
     "core_version": "1.2.0",
-    "transaction_id": "76332c15-2253-4394-9f53-feae2e82ea7b",
+    "transaction_id": "222fd1f1-23d0-4a37-85c3-5f12853f0e34",
     "country": "IND",
-    "city": "std:011",
+    "city": "*",
     "action": "search",
-    "timestamp": "2025-01-02T10:17:10.558Z",
-    "message_id": "effe39f0-2920-47e4-93a9-e2c9155d587e",
+    "timestamp": "2025-01-09T05:23:26.601Z",
+    "message_id": "05378222-ac35-4984-941f-b49f68a60b47",
     "ttl": "PT30S",
     "bap_uri": "http://127.0.0.1:8000/buyer/",
     "bap_id": "ondc.sequelstring.com/buyer/protocol"
@@ -21,4 +22,5 @@
         "type": "Delivery"
       }
     }
-  }}
+  }
+}
