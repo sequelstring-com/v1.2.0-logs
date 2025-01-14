@@ -2,17 +2,17 @@
   "context": {
     "domain": "ONDC:AGR10",
     "core_version": "1.2.0",
-    "transaction_id": "e8cea330-4165-4589-83ba-288f5d66816d",
+    "transaction_id": "219578dc-9364-4917-bc4d-694e73ef82da",
     "country": "IND",
     "city": "*",
     "action": "on_search",
-    "timestamp": "2025-01-09T05:16:03.160Z",
-    "message_id": "00d203ba-be18-4817-8f33-52f4cc1e3108",
+    "timestamp": "2025-01-13T09:49:19.708Z",
+    "message_id": "1b41e66a-2ab2-480b-937c-54fda89d3016",
     "ttl": "PT30S",
-    "bap_uri": "http://127.0.0.1:8000/buyer/",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
-    "bpp_uri": "http://127.0.0.1:5006/seller/protocol"
+    "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
   },
   "message": {
     "catalog": {
@@ -174,9 +174,9 @@
                 "timestamp": "2024-03-15T08:38:39.542Z"
               },
               "price": {
-                "value": "820.00",
+                "value": "000",
                 "currency": "INR",
-                "maximum_value": "820.00"
+                "maximum_value": "000"
               },
               "quantity": {
                 "maximum": {
@@ -194,7 +194,9 @@
               },
               "descriptor": {
                 "name": "OKRA NUZIVEEDU NOKH 1001",
-                "images": ["https://test.s3.amazonaws.com/Product_default.png"],
+                "images": [
+                  "https://test.s3.amazonaws.com/Product_default.png"
+                ],
                 "symbol": "https://test.s3.amazonaws.com/Product_default.png",
                 "long_desc": "OKRA NUZIVEEDU NOKH 1001",
                 "short_desc": "OKRA NUZIVEEDU NOKH 1001"
@@ -229,9 +231,9 @@
                 "timestamp": "2024-03-15T08:38:39.542Z"
               },
               "price": {
-                "value": "300.00",
+                "value": "000",
                 "currency": "INR",
-                "maximum_value": "300.00"
+                "maximum_value": "000"
               },
               "quantity": {
                 "maximum": {
@@ -249,7 +251,9 @@
               },
               "descriptor": {
                 "name": "COTTON US AGRISEEDS US 7067",
-                "images": ["https://test.s3.amazonaws.com/Product_default.png"],
+                "images": [
+                  "https://test.s3.amazonaws.com/Product_default.png"
+                ],
                 "symbol": "https://test.s3.amazonaws.com/Product_default.png",
                 "long_desc": "• कंपनी--एग्रो बीज\n• फसल--गेहूं\n• उत्पाद श्रेणी--बीज\n• परिपक्वता (DAT)--140-157 दिन\n• पौधे की ऊँचाई--90-101 सेमी\n• पैकेजिंग--40 किग्रा\n• उत्पादन--20-24 क्विंटल/एकड़\n• टिप्पणियां --अच्छा उत्पादन और रस्ट से प्रतिरोधित\n\n\n",
                 "short_desc": "COTTON US AGRISEEDS US 7067"
@@ -395,7 +399,9 @@
           ],
           "descriptor": {
             "name": "Agro Fertilizer Store",
-            "images": ["https://cdn.test.com/festive_greeting/store.png"],
+            "images": [
+              "https://cdn.test.com/festive_greeting/store.png"
+            ],
             "symbol": "https://cdn.test.com/festive_greeting/store.png",
             "long_desc": "Agro Fertilizer Store",
             "short_desc": "Agro Fertilizer Store"
@@ -403,43 +409,13 @@
           "fulfillments": [
             {
               "id": "5009-Delivery",
-              "type": "Delivery",
+              "type": "delivery",
               "contact": {
                 "email": "tech-support@test.com",
                 "phone": "9900000000"
               }
             }
           ]
-        }
-      ],
-      "bpp/descriptor": {
-        "name": "Agri Store",
-        "tags": [
-          {
-            "code": "bpp_terms",
-            "list": [
-              {
-                "code": "np_type",
-                "value": "MSN"
-              }
-            ]
-          }
-        ],
-        "images": [
-          "https://cdn.test.com/festive_greeting/Group_dehaat_icon.png"
-        ],
-        "symbol": "https://cdn.test.com/festive_greeting/Group_dehaat_icon.png",
-        "long_desc": "Beej se Bazaar tak",
-        "short_desc": "Beej se Bazaar tak"
-      },
-      "bpp/fulfillments": [
-        {
-          "id": "5009-Delivery",
-          "type": "Delivery",
-          "contact": {
-            "email": "tech-support@test.com",
-            "phone": "9900000000"
-          }
         }
       ]
     }
